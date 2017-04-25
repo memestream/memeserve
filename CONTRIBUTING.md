@@ -5,7 +5,8 @@ Splendid!
 ## Forking
 
 1. Fork the repo (duh)
-2. Clone this repo ( `git clone git@github.com:memestream/memeserve` )
+2. Clone this repo ( `git clone git@github.com:memestream/memeserve` ) and make
+   sure you keep the folder structure (`$GOPATH/src/github.com/memestream/memeserve`)
 3. Remove the existing origin ( `git remote remove origin`)
 4. Add your fork as origin ( `git remote add origin git@github.com:you/memeserve` )
 3. Add upstream ( `git remote add upstream git@github.com:memestream/memeserve`)
