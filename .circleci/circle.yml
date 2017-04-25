@@ -5,6 +5,13 @@ jobs:
       - image: golang:latest
     steps:
       - checkout
+      - run: go get -v -u ./...
+  test:
+    docker:
+      - image: golang:latest
+    steps:
+      - checkout
+      - run: go test ./...
 notify:
   webhooks:
     -url: https://webhooks.gitter.im/e/66a5798439d639c0e930
