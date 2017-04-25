@@ -1,4 +1,10 @@
 version: 2
+jobs:
+  build:
+    docker:
+      - image: golang:latest
+    steps:
+      - checkout
 notify:
   webhooks:
     -url: https://webhooks.gitter.im/e/66a5798439d639c0e930
