@@ -1,1 +1,4 @@
 version: 2
+notify:
+  webhooks:
+    -url: https://webhooks.gitter.im/e/66a5798439d639c0e930
